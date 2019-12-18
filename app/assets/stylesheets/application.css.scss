@@ -45,8 +45,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
   border-bottom: 1px dashed rgba(255, 25, 255, .5);
 }
 
@@ -59,6 +58,23 @@ h1, h2, h3 {
     background:rgba(255,255,255,0.1);
   }
 }
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2.5px solid white;
+   &:hover, &:focus {
+     background:rgba(255,255,255,0.1);
+   }
+} 
+
 
 // Home page style
 .home-callout {
