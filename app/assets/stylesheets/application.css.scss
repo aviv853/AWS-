@@ -22,13 +22,18 @@
 @import 'bootstrap';
 
 //Typography styles
-h2, h3 {
+h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+.outer-headout > h1 {
   font-family: 'Lilita One', cursive;
   font-size: 4em;
+}
+
+.inner-headout {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
 }
 
 //Background gradient
@@ -42,7 +47,7 @@ h1 {
 .navbar {
   padding-top: 10px;
   padding-bottom: 10px;
-  border: none;
+  border-bottom: 1px dashed rgba(255, 25, 255, .5);
 }
 
 //Nav styles
