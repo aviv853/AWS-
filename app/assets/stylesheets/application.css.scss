@@ -30,7 +30,29 @@ h1, h2, h3 {
 }
 
 .navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: none;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.9;
+  background:rgba(255,255,255,0.1);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.9;
+  background:rgba(255,255,255,0.1);
 }
 
 .home-callout {
@@ -39,3 +61,4 @@ h1, h2, h3 {
   padding-top: 60px;
   padding-bottom: 130px;
 }
+
