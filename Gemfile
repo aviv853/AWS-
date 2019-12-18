@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server

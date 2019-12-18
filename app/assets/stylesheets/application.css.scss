@@ -14,19 +14,29 @@
  *= require_self
  */
  
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+//Typography styles
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 4em;
+}
+
+//Background gradient
 .navbar, .home-callout {
   background: #C04848;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
-
-
-h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -35,6 +45,7 @@ h1, h2, h3 {
   border: none;
 }
 
+//Nav styles
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {
@@ -44,6 +55,7 @@ h1, h2, h3 {
   }
 }
 
+// Home page style
 .home-callout {
   color: white;
   margin-top: -20px;
