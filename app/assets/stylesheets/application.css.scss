@@ -81,5 +81,9 @@ h1, h2, h3 {
   margin-top: -20px;
   padding-top: 60px;
   padding-bottom: 130px;
+  margin-bottom: 20px;
 }
 
+.button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  width:100%;
+}

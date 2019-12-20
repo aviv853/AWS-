@@ -6,3 +6,47 @@
     <h3>Where singers can meet producers</h3>
   </div>
 </div>
+
+<div class = "sign_up_form">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+          <div class="well">
+
+          <br/>
+          
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <%= devise_error_messages! %>
+            <div class="field form-group">
+              <!-- <%= f.label :email %><br /> -->
+              <%= f.email_field :email, placeholder: "Email address", autofocus: true, class: 'form-control' %>
+                
+            </div>
+            
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="field form-group">
+                <!--  <%= f.label :password %> -->
+                  <% if @minimum_password_length %>
+                <!--  <em>(<%= @minimum_password_length %> characters minimum)</em> -->
+                  <% end %>
+                  <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class: 'form-control' %>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="field form-group">
+                <!--  <%= f.label :password_confirmation %><br /> -->
+                  <%= f.password_field :password_confirmation, placeholder: "Confirm password", autocomplete: "off", class: 'form-control'  %>
+                </div>
+              </div>
+            </div>
+            <div class="actions  ">
+              <%= f.submit "Sign up", class: 'btn btn-primary'%>
+            </div>
+          <% end %>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
