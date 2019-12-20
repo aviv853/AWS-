@@ -34,6 +34,16 @@
       </div><!-- /.navbar-collapse -->
       </div>
     </nav>
+    
+  
     <%= yield %>
+    
+    <div class="container col-md-4 col-md-offset-4">
+      <% flash.each do |type, msg| %>
+        <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+      <% end %>
+    </div>
+    
+    
   </body>
 </html>
