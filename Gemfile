@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
+# Use Figaro for ENV variables
+gem 'figaro'
+# Using Thor in order to install stripe
+gem 'thor'
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 # Use Devise for user authentication
