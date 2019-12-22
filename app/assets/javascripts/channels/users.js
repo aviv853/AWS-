@@ -1,50 +1,42 @@
 /* global $, Stripe */
-// Document ready
-$(document).on('turbolinks:load', function() {
+//Document ready.
+$(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
   var submitBtn = $('#form-signup-btn');
-  
-  // Set stripe public key
-  Stripe.setPublishableKey($('meta["STRIPE_PUBLIC_KEY"]').attr('content'));
-  
-  // When user clicks submit btn
-  submitBtn.click(function() {
-    // Prevent default submission behavior
+  //Set Stripe public key.
+  Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
+  //When user clicks form submit btn,
+  submitBtn.click(function(event){
+    //prevent default submission behavior.
     event.preventDefault();
     submitBtn.val("Processing").prop('disabled', true);
-    
-    // Collect CC field
+    //Collect the credit card fields.
     var ccNum = $('#card_number').val(),
         cvcNum = $('#card_code').val(),
         expMonth = $('#card_month').val(),
         expYear = $('#card_year').val();
-    
-    // Use Stripe JS library to check for card errors
+    //Use Stripe JS library to check for card errors.
     var error = false;
-    
-    // Validate card number
-    if (!Stripe.dot.validateCardNumber(ccNum)) {
+    //Validate card number.
+    if(!Stripe.card.validateCardNumber(ccNum)) {
       error = true;
       alert('The credit card number appears to be invalid');
     }
-    
-    // Validate cvc number
-    if (!Stripe.dot.validateCVC(cvcNum)) {
+    //Validate CVC number.
+    if(!Stripe.card.validateCVC(cvcNum)) {
       error = true;
       alert('The CVC number appears to be invalid');
     }
-    
-    // Validate expiration date
-    if (!Stripe.dot.validateExpiery(expMonth, expYear)) {
+    //Validate expiration date.
+    if(!Stripe.card.validateExpiry(expMonth, expYear)) {
       error = true;
       alert('The expiration date appears to be invalid');
     }
-    
     if (error) {
+      //If there are card errors, don't send to Stripe.
       submitBtn.prop('disabled', false).val("Sign Up");
     } else {
-      
-      // Send card information to stripe
+      //Send the card info to Stripe.
       Stripe.createToken({
         number: ccNum,
         cvc: cvcNum,
@@ -52,26 +44,15 @@ $(document).on('turbolinks:load', function() {
         exp_year: expYear
       }, stripeResponseHandler);
     }
-        
-    
-    
-    
     return false;
   });
-  
-  // Stripe returns card token
+  //Stripe will return a card token.
   function stripeResponseHandler(status, response) {
-    
-    // Get the token from the response
+    //Get the token from the response.
     var token = response.id;
-    
-    // Inject card token into a hidden form field
-    theForm.append( $('<input type="hidden" name="user[stripe_card_token]">').val(token));
-    
-    // Submit form to Rails app
-    theForm.get(0).submit;
+    //Inject the card token in a hidden field.
+    theForm.append( $('<input type="hidden" name="user[stripe_card_token]">').val(token) );
+    //Submit form to our Rails app.
+    theForm.get(0).submit();
   }
-  
-  
-  
 });
