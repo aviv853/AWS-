@@ -3,9 +3,11 @@
   </br>
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   
-    <%= hidden_field_tag 'plan', params[:plan] %>
-  
     <%= devise_error_messages! %>
+    
+    <%= hidden_field_tag 'plan', params[:plan] %>
+    
+    
     <div class="row">
       <div class="col-md-12">
         <div class="field form-group">
@@ -42,7 +44,7 @@
       </div>
     </div>
       <div class="actions  form-group">
-        <%= f.submit "Sign up", class: 'btn btn-primary btn-lg btn-block'%>
+        <%= f.submit "Sign up", class: 'btn btn-primary btn-lg btn-block', id: 'form-signup-btn'%>
       </div>
     </div>
   </div>

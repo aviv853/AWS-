@@ -1,0 +1,299 @@
+[33mcommit d058287e347a1c3f448f99d758fa3e77b8cca5ac[m[33m ([m[1;36mHEAD -> [m[1;32muser_memberships[m[33m, [m[1;31morigin/user_memberships[m[33m)[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sun Dec 22 06:57:37 2019 +0000
+
+    Added stripe response handler and error handling js
+
+[33mcommit 72bcad16ae26888b764a2baab1684ad33fac2f0c[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sun Dec 22 06:18:39 2019 +0000
+
+    Added js for sending card fields to Stripe
+
+[33mcommit 2a9c7d40a4171e154649e1eb538c748358fd1a52[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 22:56:50 2019 +0000
+
+    Added Stripe js library and pro form id
+
+[33mcommit 413c5322309fe76d2d05255ee05c580a5596a2d1[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 22:46:12 2019 +0000
+
+    Added plan id as hidden fields to signup forms
+
+[33mcommit 9579747871a66ff654c0e76393022a4631d8c246[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 22:37:02 2019 +0000
+
+    Added stripe customer token to users table
+
+[33mcommit 041f88759f37a3c56a0eff197c5d13bd2e5d2a42[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 22:11:58 2019 +0000
+
+    Added stripe and figaro gems and api keys
+
+[33mcommit 0b7d002a12ea964cf4d23c8b206b34611cd0d118[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 19:48:00 2019 +0000
+
+    Modified the sign up forms
+
+[33mcommit bc507b38476fd7250a819de3bf9fb377806b9718[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 17:57:56 2019 +0000
+
+    Added conditional logic on sign up page
+
+[33mcommit 797e1786a1b98306679f6392bd1d1715b52febd9[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 17:32:34 2019 +0000
+
+    Added plan vars and params to homepage
+
+[33mcommit b7e3f6a16220a2f64cd596d4b83dc7628e43c33b[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 13:00:32 2019 +0000
+
+    Added different sign up links to homepage
+
+[33mcommit 129e6f61fbeab1ad938a0727eb4754b817b27121[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 08:33:09 2019 +0000
+
+    Added association between plans & users
+
+[33mcommit 0b37ca21dbad05d48e1b016ec73b325a0e4e9c18[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 07:49:18 2019 +0000
+
+    Added plans table
+
+[33mcommit abebe0608e9536982b36fb4af56bcdf8733bfad1[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Sat Dec 21 07:34:42 2019 +0000
+
+    Hide devise flash messages
+
+[33mcommit c1fe193d0e202a7e1503edb8a6ed890ed7c95e01[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 20:56:21 2019 +0000
+
+    re-routed sign-up to homepage
+
+[33mcommit 63cb220137b36a769c1b3ac7a45082f0bcba8daf[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 20:24:15 2019 +0000
+
+    Added login and signup buttons to nav
+
+[33mcommit 2d871ac88092b6cbe643b985a70bdb3adcde2faa[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 19:59:37 2019 +0000
+
+    Added bootstrap to User#sign_in
+
+[33mcommit 61222a3699d02dafde2a1899b7fd5f21977a6c30[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 19:21:55 2019 +0000
+
+    Added Twitter bootstrap to registration form
+
+[33mcommit 54e79409fab3a3a09878a9c97f8a56c329a7c052[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 18:16:32 2019 +0000
+
+    Installed Devise gem
+
+[33mcommit 210d62c1c10ab2fb000faca729e45ccc8efa1977[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 18:07:19 2019 +0000
+
+    Added code comments
+
+[33mcommit 0bfbd857af4820769c221c361dff027a3c915671[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 15:13:15 2019 +0000
+
+    Added mailer settings to environemnt file
+
+[33mcommit 6d66571c700031dbaecb39ee788be4ef71754a7b[m[33m ([m[1;31morigin/contact_form[m[33m, [m[1;32mcontact_form[m[33m)[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 14:42:33 2019 +0000
+
+    Changed default mailer email address
+
+[33mcommit 7764d28c9f21efc08d656419cba28fcd50d87a2d[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 14:00:38 2019 +0000
+
+    Trigger the mailer from the controller
+
+[33mcommit 1761571491d86d13d43c80c758d7196a08b30e3c[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 13:36:02 2019 +0000
+
+    Added contact form mailer view
+
+[33mcommit 10ce27c82e75080c028250e32018326680faa428[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 13:12:55 2019 +0000
+
+    Added contact form mailer file
+
+[33mcommit 0b12292417fcfddf09f4202244776a80881de6a7[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 13:07:03 2019 +0000
+
+    Cleaned contact routes
+
+[33mcommit 6b339c9098de37588c524e7a6256a34c574d2c48[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 11:38:24 2019 +0000
+
+    Added bootstrap to flash messages
+
+[33mcommit 9575246d795fa1da295cedceef138de9ee8b2891[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 11:05:58 2019 +0000
+
+    Improved error messages
+
+[33mcommit 76083cd4f2e232fcff12df87ace92141cd5cb1dc[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 10:13:38 2019 +0000
+
+    Added form validations to model
+
+[33mcommit 37751e5518b883e2e42c05d23c030626ec969fa9[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 09:14:52 2019 +0000
+
+    Added hirb gem
+
+[33mcommit 985a57fd35c9a9bed9e3cc09729f81fdb17946a4[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 08:33:35 2019 +0000
+
+    Added contact create action to save to db
+
+[33mcommit b093d8cc0996c0d78cdf0561331140461d146c1f[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 07:39:54 2019 +0000
+
+    Added contact model file
+
+[33mcommit b27844f2212df7eed6c1051c57952ea2f355336e[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 07:28:33 2019 +0000
+
+    Created contacts table
+
+[33mcommit 781c585fec34f087152b46caa7003eea826fe52e[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 07:14:21 2019 +0000
+
+    Added nav link for contact page
+
+[33mcommit 7e3d224d7bc1cbde8ffe21bb05137187aafe3d6c[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 07:00:37 2019 +0000
+
+    Added bootstrap to form
+
+[33mcommit 049dfdea0441cd875a56b973b648d9e44d03f356[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Fri Dec 20 06:44:09 2019 +0000
+
+    Added form fields
+
+[33mcommit 9c64b4bb2746bbd63ad267426bacacc336948904[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 06:56:10 2019 +0000
+
+    Added contact form with route and controller
+
+[33mcommit 5b1664e291f52b36633cea85c00b4d04a343945e[m[33m ([m[1;31morigin/pages_and_layout[m[33m, [m[1;32mpages_and_layout[m[33m)[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 06:26:53 2019 +0000
+
+    Added Java bootstrap
+
+[33mcommit 588c7fbcca3639f618bcf0df4e5b493141da24e9[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 05:43:59 2019 +0000
+
+    added route prefixes
+
+[33mcommit 0ede05ea60cb52715b02f7f90cd70fbd36b83f2a[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 05:05:30 2019 +0000
+
+    Added Font Awesome and Google Fonts gems for an icon and a headline respectivly
+
+[33mcommit 4747e4b02c6dcbb50b88b92409b2cff6355e1d90[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 04:31:22 2019 +0000
+
+    made the scss more efficient
+
+[33mcommit 34e36796696527f2f1a33bb0b3f2336f047c412e[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 04:16:00 2019 +0000
+
+    fixed navbar text
+
+[33mcommit cdc6b8ebbd6c2c565f9dce0da9fe84d95d37cba6[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 03:46:28 2019 +0000
+
+    Designed home page
+
+[33mcommit 5fdd5157be2264fed862fa719152955c9d5c17e8[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 02:52:34 2019 +0000
+
+    added gradient background
+
+[33mcommit 28b9bbd147122d00d51d5011dfa0bd0e8e68d646[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 02:40:00 2019 +0000
+
+    Added navbar
+
+[33mcommit 0991cc03438bb143d1a39663d330b4efcf684ddf[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 02:15:07 2019 +0000
+
+    added bootstrap gem
+
+[33mcommit 7c4cbd196a93367b65e97dfaa6a54cb1833bc09b[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 01:58:21 2019 +0000
+
+    Added about page
+
+[33mcommit 909e9fea81f44c3d0aed7a388c53c2f5180f9970[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 01:46:31 2019 +0000
+
+    Added google fonts
+
+[33mcommit 0360a7519ecbcd5291dc181928c8eeb160cdf895[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 01:35:00 2019 +0000
+
+    Home paged added
+
+[33mcommit 8689489981e2e628ae404312eada957f3ccbb788[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 01:22:13 2019 +0000
+
+    Updated Gemfile for consistency
+
+[33mcommit e1b2ec1f704012490d1f1e089ba23d5247c0909d[m
+Author: Aviv Sheratzky <aviv312@gmail.com>
+Date:   Wed Dec 18 00:36:34 2019 +0000
+
+    Initial commit
