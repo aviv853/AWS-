@@ -24,7 +24,7 @@
         </button>
         <%= link_to root_path, class: "navbar-brand" do%>
            <i class="fa fa-play-circle"></i>
-           Musical
+           Vlogger
         <% end %>
       </div>
       <div class="collapse navbar-collapse" id="main-nav-collapse">
@@ -43,14 +43,15 @@
       </div>
     </nav>
     
-  
-    <%= yield %>
-    
-    <div class="container col-md-4 col-md-offset-4">
+    <div class="container flash-container">
       
       <% flash.each do |type, msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
     </div>
+  
+    <%= yield %>
+    
+    
   </body>
 </html>

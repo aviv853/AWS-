@@ -91,6 +91,15 @@ h1, h2, h3 {
   display: none;
 }
 
-html {
-  height: 1500px;
+.flash-container {
+  position: absolute;
+  width: 100%;
+}
+
+.alert-notice, .alert-alert {
+    color: white;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.18);
+    margin-top: 225px;
 }
